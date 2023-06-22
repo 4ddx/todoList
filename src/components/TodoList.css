@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:white;
+}
+.mainTodoContainer {
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+input {
+    height: 50px;
+    border: 1px solid rgb(178, 174, 224);
+    border-radius: 2px;
+    width: 900px;
+    font-size: 20px;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.inputField button {
+    height: 54px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    color:white;
+    border: 1px solid greenyellow;
+    background-color: transparent;
+    cursor: pointer;
+}
+.todoItem {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom:10px;
+    background-color: rgb(69, 120, 176);
+    border-radius: 8px;
+
+    
+}
+.todoItem li {
+    list-style-type: none;
+    padding: 1px;
+    color: rgb(227, 226, 226);
+    font-size: 19px;
+    cursor: pointer;
+}
+.todoItemContainer {
+    margin-top: 40px;
+}
+.delBtn{
+    width: 30px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.delBtn:hover{
+    border: 1px solid greenyellow;
+}
